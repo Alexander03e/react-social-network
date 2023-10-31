@@ -1,0 +1,7 @@
+.content-page{
+    background-color: var(--header-color);
+    border-radius: 1em;
+    padding:1em 1em 1em 1em;
+    height:100%;    
+    
+}

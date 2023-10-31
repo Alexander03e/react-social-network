@@ -1,0 +1,41 @@
+.profile{
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+    gap:1em;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+.profile__avatar{
+    grid-row:1/5;
+    width:100%;
+}
+.posts{
+    grid-column: 1/3;
+}
+.posts__add-wrapper{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end;
+    column-gap: 1em;
+    height:6em;
+    padding-bottom:1em
+}
+.posts__add-post-field{
+    height:100%;
+    width:33%;
+    resize: none;
+    background-color: lightgray;
+}
+.posts__add-post-btn{
+    background-color: var(--element-color);
+    color:black;
+    border:1px solid black;
+    border-radius: 1em;
+    height:50%;
+    padding:1em;
+    transition: 0.15s;
+}
+.posts__add-post-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
